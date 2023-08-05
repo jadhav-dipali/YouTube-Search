@@ -34,7 +34,7 @@ export default function Search(){
     <div className="dsplay-blogs">
         <div className="leftSide">
           <div>
-            { select &&<><iframe width="820" height="440" src={`https://www.youtube.com/embed/${select.id.videoId}`}  allowfullscreen ></iframe>
+            { select &&<><iframe width="720" height="440" src={`https://www.youtube.com/embed/${select.id.videoId}`}  allowfullscreen ></iframe>
            <h3>{select.snippet.title}</h3></> }
           </div>
         </div>
