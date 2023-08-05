@@ -1,0 +1,35 @@
+.dsplay-blogs{
+    display: flex;
+    flex: 1;
+    padding: 90px;
+
+}
+.leftSide{
+    width: 100%;
+}
+.rightSide{
+    width: 40%;
+}
+#searchBar {
+ height: 50px;
+min-width: 750px;
+font-size: 25px;
+font-weight: bold;
+border-radius: 10px 0 0 10px;
+}
+#search{
+ min-width: 120px;
+ font-size: 25px;
+font-weight: bold;
+border-radius: 0 10px 10px 0;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+#hold{
+    display: flex;
+}
